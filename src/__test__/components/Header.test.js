@@ -1,3 +1,6 @@
+// mount --> Cuando necesitas el DOM
+// shallow --> Solo necesitas algo particular del componente. No ocupas todo el DOM
+// create --> genera en memoria una copia del DOM para poder montar el componente y así chequear que todo está en orden.
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import { create } from 'react-test-renderer';
